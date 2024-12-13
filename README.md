@@ -1,5 +1,5 @@
 # Simple Rest controller Demo App
-The embedded server should be responding to a local http Get request with a simple text on the screen. 
+The applications embedded server should be responding to a local http Get request with a simple text on the screen. 
 
 ## Set Up
 1. Create project dependencies with [initializr](https://start.spring.io/).
@@ -27,7 +27,7 @@ public class SimpleRestController {
 ```
 
 ## Execution
-1. Start the application (*play button in HttpEndpointDemoApplication.java*).
-2. Tomcat server should be starting on port `8080`
+1. Start the application (*__play__ button in `HttpEndpointDemoApplication.java`*).
+2. Tomcat server should be starting on port `8080`.
 3. Open the browser, enter `http://localhost:8080/` the url address.
 4. The returned page should display the text `Hello World`.
